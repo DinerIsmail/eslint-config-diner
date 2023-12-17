@@ -12,7 +12,6 @@ module.exports = {
     "jsx-a11y",
     "@typescript-eslint",
     "promise",
-    "@tanstack/query"
   ],
   extends: [
     "plugin:import/recommended",
@@ -25,7 +24,6 @@ module.exports = {
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
     "plugin:@next/next/recommended",
     "prettier",
-    "plugin:@tanstack/eslint-plugin-query/recommended"
   ],
   parser: "@typescript-eslint/parser",
   parserOptions: {
@@ -42,38 +40,6 @@ module.exports = {
     react: {
       "version": "detect"
     },
-    "import/resolver": {
-      "alias": {
-        "map": [
-          [
-            "@components",
-            "./components/"
-          ],
-          [
-            "@hooks",
-            "./hooks/"
-          ],
-          [
-            "@helpers",
-            "./helpers/"
-          ],
-          [
-            "@store",
-            "./store/"
-          ],
-          [
-            "@styles",
-            "./styles/"
-          ]
-        ],
-        "extensions": [
-          ".js",
-          ".jsx",
-          ".ts",
-          ".tsx"
-        ]
-      }
-    },
     "import/extensions": [
       ".js",
       ".jsx",
@@ -82,25 +48,6 @@ module.exports = {
     ]
   },
   rules: {
-    "arrow-parens": [
-      2,
-      "always"
-    ],
-    "arrow-spacing": [
-      1,
-      {
-        "before": true,
-        "after": true
-      }
-    ],
-    "jsx-quotes": 1,
-    "keyword-spacing": [
-      1,
-      {
-        "before": true,
-        "after": true
-      }
-    ],
     "no-alert": 0,
     "no-console": 0,
     "no-debugger": 1,
@@ -114,12 +61,6 @@ module.exports = {
     ],
     "no-lone-blocks": 1,
     "no-param-reassign": 0,
-    "no-trailing-spaces": [
-      2,
-      {
-        "skipBlankLines": true
-      }
-    ],
     "no-underscore-dangle": 0,
     "no-unexpected-multiline": 1,
     "no-unreachable": 1,
@@ -127,15 +68,6 @@ module.exports = {
     "no-var": 1,
     "no-mixed-spaces-and-tabs": 1,
     "prefer-const": 1,
-    "prettier/prettier": 0,
-    "quotes": [
-      2,
-      "single",
-      {
-        "avoidEscape": true,
-        "allowTemplateLiterals": true
-      }
-    ],
     "react-hooks/rules-of-hooks": 2,
     "react-hooks/exhaustive-deps": "warn",
     "react/no-unescaped-entities": 0,
