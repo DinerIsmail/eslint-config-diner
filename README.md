@@ -1,6 +1,6 @@
 # eslint-config-diner
 
-The ESLint configuration I use for my side projects where I use Next.js with Typescript. This does not include configuration for Prettier, Stylelint and others which has to be installed and configured separately.
+The ESLint configuration I use for my React Typescript side projects. This does not include configuration for Prettier, Stylelint and others which has to be installed and configured separately.
 
 # Installation
 
