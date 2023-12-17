@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-diner",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ESLint config created by Diner Ismail for Next.js Typescript projects",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,10 @@
   },
   "author": "Diner Ismail",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DinerIsmail/eslint-config-diner"
+  },
   "devDependencies": {
     "eslint": "^8.56.0",
     "eslint-config-next": "^14.0.4",
