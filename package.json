@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-diner",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "ESLint config created by Diner Ismail for React projects with Typescript",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "https://github.com/DinerIsmail/eslint-config-diner"
   },
-  "devDependencies": {
+  "dependencies": {
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import": "^2.29.1",
