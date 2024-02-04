@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-diner",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "ESLint config created by Diner Ismail for React projects with Typescript",
   "main": "index.js",
   "scripts": {
