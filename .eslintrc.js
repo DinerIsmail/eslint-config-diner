@@ -8,14 +8,11 @@ module.exports = {
   plugins: [
     "react",
     "react-hooks",
-    "import",
     "jsx-a11y",
     "@typescript-eslint",
     "promise",
   ],
   extends: [
-    "plugin:import/recommended",
-    "plugin:import/typescript",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
     "plugin:jsx-a11y/recommended",
@@ -38,12 +35,6 @@ module.exports = {
     react: {
       "version": "detect"
     },
-    "import/extensions": [
-      ".js",
-      ".jsx",
-      ".ts",
-      ".tsx"
-    ]
   },
   rules: {
     "no-alert": 0,
@@ -73,13 +64,6 @@ module.exports = {
     "react/jsx-props-no-spreading": 0,
     "react/react-in-jsx-scope": 0,
     "react/prop-types": 0,
-    "import/default": 1,
-    "import/export": 1,
-    "import/named": 1,
-    "import/namespace": 1,
-    "import/no-named-as-default": 1,
-    "import/no-unresolved": 1,
-    "import/no-anonymous-default-export": 0,
     "jsx-a11y/anchor-is-valid": 1,
     "jsx-a11y/label-has-associated-control": 1,
     "@typescript-eslint/ban-ts-comment": 0,
