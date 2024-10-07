@@ -23,6 +23,5 @@ module.exports = {
 # What's included
 
 - [`typescript-eslint/eslint-plugin`](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin): Powerful linting rules for Typescript
-- [`eslint-plugin-import`](https://www.npmjs.com/package/eslint-plugin-import): auto import sorting and grouping
 - [`eslint-plugin-promise`](https://www.npmjs.com/package/eslint-plugin-promise): Enforce best practices for using Promises.
 - [`eslint-plugin-react`](https://www.npmjs.com/package/eslint-plugin-react) and [`eslint-plugin-react-hooks`](https://www.npmjs.com/package/eslint-plugin-react-hooks): React-specific lint rules
